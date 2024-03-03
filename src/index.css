@@ -1,0 +1,67 @@
+
+
+/* .app{
+  width: 90%
+} */
+.searchitem{
+  /* width: 100%; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* border: 2px solid yellow; */
+}
+
+
+.data_box{
+  width: 45%;
+  height: 300px;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  padding: 20px;
+  box-shadow: 3px 4px 3px rgba(0, 0, 0, 0.5);
+}
+.box1{
+  width: 90%;
+}
+.box1 form input {
+  width: 100%;
+  height: 30px;
+  padding: 7px 20px;
+  border-radius: 15px;
+  /* border: none; */
+  font-size: 20px;
+  /* outline: none; */
+  box-shadow: 1px 0px 3px rgba(0, 0, 0, 0.5);
+}
+
+
+.box1 form button {
+  width: 100px;
+  height: 35px;
+  padding: 7px ;
+  border-radius: 5px;
+  color: aliceblue;
+  background-color: black;
+  margin-top: 20px;
+  margin-left: 10px;
+  border: none;
+  /* outline: none; */
+  box-shadow: 1px 0px 3px rgba(0, 0, 0, 0.5);
+}
+
+.searchitem input{
+  width: 90%;
+  height: 30px;
+  padding: 7px 20px;
+  font-size: 20px;
+  border-radius: 15px;
+  border: none;
+  /* outline: none; */
+  box-shadow: 1px 0px 3px rgba(0, 0, 0, 0.5);
+  margin: 20px;
+}
+
+.box2 h2{
+margin-left: 20px;
+}
